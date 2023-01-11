@@ -1,0 +1,7 @@
+original-images/**/*.jpg
+original-images/**/*.png
+public/**/*.jpg
+public/**/*.png
+public/**/*.json
+index.html
+

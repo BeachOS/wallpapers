@@ -1,0 +1,14 @@
+image: ruby:2.7
+
+cache:
+  paths:
+  - original-images/
+  - public/
+
+pages:
+  stage: deploy
+  script:
+  - rake
+  artifacts:
+    paths:
+    - public
